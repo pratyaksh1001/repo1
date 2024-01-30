@@ -11,3 +11,5 @@ int main(){
     r=(a>b)?(a>c?a:c):(b>c?b:c);
     printf("the greatest integer is: %d",r);
 }
+
+
