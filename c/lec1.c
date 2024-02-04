@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&a);
     printf("enter the second number: ");
     scanf("%d",&b);
-    s=a+b;
+    s=a+b;  
     p=a*b;
     d=a/b;
     su=a-b;

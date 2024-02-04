@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+  
 int main(){
     int a;
     int r=0;
