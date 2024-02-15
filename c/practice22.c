@@ -8,7 +8,7 @@ int main(){
     int c1=100000;
     int c2=0;
     while(x>0){
-        int g=x%10;
+        int g=x%10; 
         int h=t;
         int m=0;
         while(h>0){

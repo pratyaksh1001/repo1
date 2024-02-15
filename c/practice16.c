@@ -12,6 +12,5 @@ int main(){
     if((x&t1) && (x&t2)){
         r=x;
     }
-    
     printf("%d",r);
 }
