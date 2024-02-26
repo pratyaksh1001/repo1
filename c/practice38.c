@@ -6,22 +6,18 @@ int main(){
     int arr[10];
     int t2=x;
     scanf("%d",&x);
-    while(x>0){
-        int f=x%10;
-        int t=x;
+    for(int i=0;i<10;i++){
         c=0;
-        while(t>0){
-            if(f==t%10){
+        while(x>0){
+            if(i==x%10){
                 c++;
             }
-            t/=10;
+            x/=10;
         }
-        if(arr[f]<c){
-            arr[f]=c;
-        }
-        x/=10;
+        arr[i]=c;
+        x=t2;
     }
-    for(int i=0;i<10;i++){
-        printf("count of %d = %d\n",i,arr[i]);
+    for(int j=0;j<10;j++){
+        printf("count of %d is %d\n",j,arr[j]);
     }
 }
